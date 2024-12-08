@@ -718,7 +718,7 @@ background-color: #31d0aa;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-input[type="checkbox"]:checked+.text-policy+.span-svg-check {
+input[type="checkbox"]:checked+.text-policy>.span-svg-check {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -753,7 +753,7 @@ btn-send-overlay:focus {
 }
 
 /*GPT  advice*/
-.visally-hidden {
+.visually-hidden {
   position: absolute;
   opacity: 0;
   width: 0;
